@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F0598BC-BA91-4540-AC1A-C96091B3C064}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Final_CpP.My.MyApplication</StartupObject>
+    <RootNamespace>Final_CpP</RootNamespace>
+    <AssemblyName>Final_CpP</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Final_CpP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Final_CpP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conexion.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fr_Buscar_Catalogo_CpP.Designer.vb">
+      <DependentUpon>fr_Buscar_Catalogo_CpP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fr_Buscar_Catalogo_CpP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fr_buscar_Factura_cpp.Designer.vb">
+      <DependentUpon>fr_buscar_Factura_cpp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fr_buscar_Factura_cpp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fr_buscar_proveedor.Designer.vb">
+      <DependentUpon>fr_buscar_proveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fr_buscar_proveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fr_catalogoFormaPago_cpp.Designer.vb">
+      <DependentUpon>fr_catalogoFormaPago_cpp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fr_catalogoFormaPago_cpp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fr_insertar_CatalogoCpP.Designer.vb">
+      <DependentUpon>fr_insertar_CatalogoCpP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fr_insertar_CatalogoCpP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fr_cpp.Designer.vb">
+      <DependentUpon>fr_cpp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fr_cpp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fr_Crear_CpP.Designer.vb">
+      <DependentUpon>fr_Crear_CpP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fr_Crear_CpP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fr_Expediente_Proveedor.Designer.vb">
+      <DependentUpon>fr_Expediente_Proveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fr_Expediente_Proveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fr_insertar_empresa.Designer.vb">
+      <DependentUpon>fr_insertar_empresa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fr_insertar_empresa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fr_Insertar_Usuario.Designer.vb">
+      <DependentUpon>fr_Insertar_Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fr_Insertar_Usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fr_Menu.Designer.vb">
+      <DependentUpon>fr_Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fr_Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fr_upDel_Catalogo.Designer.vb">
+      <DependentUpon>fr_upDel_Catalogo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fr_upDel_Catalogo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fr_updel_Empresa.Designer.vb">
+      <DependentUpon>fr_updel_Empresa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fr_updel_Empresa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="md_proveedor.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="sae_cpp_finalDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sae_cpp_finalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sae_cpp_finalDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sae_cpp_finalDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sae_cpp_finalDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sae_cpp_finalDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sae_cpp_finalDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sae_cpp_finalDataSet3.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fr_Buscar_Catalogo_CpP.resx">
+      <DependentUpon>fr_Buscar_Catalogo_CpP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fr_buscar_Factura_cpp.resx">
+      <DependentUpon>fr_buscar_Factura_cpp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fr_buscar_proveedor.resx">
+      <DependentUpon>fr_buscar_proveedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fr_insertar_CatalogoCpP.resx">
+      <DependentUpon>fr_insertar_CatalogoCpP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fr_cpp.resx">
+      <DependentUpon>fr_cpp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fr_Crear_CpP.resx">
+      <DependentUpon>fr_Crear_CpP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fr_Expediente_Proveedor.resx">
+      <DependentUpon>fr_Expediente_Proveedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fr_insertar_empresa.resx">
+      <DependentUpon>fr_insertar_empresa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fr_Insertar_Usuario.resx">
+      <DependentUpon>fr_Insertar_Usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fr_Menu.resx">
+      <DependentUpon>fr_Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fr_upDel_Catalogo.resx">
+      <DependentUpon>fr_upDel_Catalogo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fr_updel_Empresa.resx">
+      <DependentUpon>fr_updel_Empresa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="sae_cpp_finalDataSet.xsc">
+      <DependentUpon>sae_cpp_finalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sae_cpp_finalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sae_cpp_finalDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sae_cpp_finalDataSet.xss">
+      <DependentUpon>sae_cpp_finalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sae_cpp_finalDataSet1.xsc">
+      <DependentUpon>sae_cpp_finalDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="sae_cpp_finalDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sae_cpp_finalDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sae_cpp_finalDataSet1.xss">
+      <DependentUpon>sae_cpp_finalDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="sae_cpp_finalDataSet2.xsc">
+      <DependentUpon>sae_cpp_finalDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="sae_cpp_finalDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sae_cpp_finalDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sae_cpp_finalDataSet2.xss">
+      <DependentUpon>sae_cpp_finalDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="sae_cpp_finalDataSet3.xsc">
+      <DependentUpon>sae_cpp_finalDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="sae_cpp_finalDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sae_cpp_finalDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sae_cpp_finalDataSet3.xss">
+      <DependentUpon>sae_cpp_finalDataSet3.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

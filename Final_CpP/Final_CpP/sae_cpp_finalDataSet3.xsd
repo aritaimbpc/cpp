@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="sae_cpp_finalDataSet3" targetNamespace="http://tempuri.org/sae_cpp_finalDataSet3.xsd" xmlns:mstns="http://tempuri.org/sae_cpp_finalDataSet3.xsd" xmlns="http://tempuri.org/sae_cpp_finalDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="sae_cpp_finalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="sae_cpp_finalConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Final_CpP.My.MySettings.GlobalReference.Default.sae_cpp_finalConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vista1_cppTableAdapter" GeneratorDataComponentClassName="vista1_cppTableAdapter" Name="vista1_cpp" UserDataComponentName="vista1_cppTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sae_cpp_finalConnectionString (MySettings)" DbObjectName="sae_cpp_final.dbo.vista1_cpp" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id_socio, soc_nombre, id_factura, fac_no_referencia, fac_fecha_emitida, fac_total FROM dbo.vista1_cpp</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_socio" DataSetColumn="id_socio" />
+              <Mapping SourceColumn="soc_nombre" DataSetColumn="soc_nombre" />
+              <Mapping SourceColumn="id_factura" DataSetColumn="id_factura" />
+              <Mapping SourceColumn="fac_no_referencia" DataSetColumn="fac_no_referencia" />
+              <Mapping SourceColumn="fac_fecha_emitida" DataSetColumn="fac_fecha_emitida" />
+              <Mapping SourceColumn="fac_total" DataSetColumn="fac_total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="sae_cpp_finalDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="sae_cpp_finalDataSet3" msprop:Generator_UserDSName="sae_cpp_finalDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vista1_cpp" msprop:Generator_TableClassName="vista1_cppDataTable" msprop:Generator_TableVarName="tablevista1_cpp" msprop:Generator_TablePropName="vista1_cpp" msprop:Generator_RowDeletingName="vista1_cppRowDeleting" msprop:Generator_RowChangingName="vista1_cppRowChanging" msprop:Generator_RowEvHandlerName="vista1_cppRowChangeEventHandler" msprop:Generator_RowDeletedName="vista1_cppRowDeleted" msprop:Generator_UserTableName="vista1_cpp" msprop:Generator_RowChangedName="vista1_cppRowChanged" msprop:Generator_RowEvArgName="vista1_cppRowChangeEvent" msprop:Generator_RowClassName="vista1_cppRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_socio" msprop:Generator_ColumnVarNameInTable="columnid_socio" msprop:Generator_ColumnPropNameInRow="id_socio" msprop:Generator_ColumnPropNameInTable="id_socioColumn" msprop:Generator_UserColumnName="id_socio" type="xs:int" />
+              <xs:element name="soc_nombre" msprop:Generator_ColumnVarNameInTable="columnsoc_nombre" msprop:Generator_ColumnPropNameInRow="soc_nombre" msprop:Generator_ColumnPropNameInTable="soc_nombreColumn" msprop:Generator_UserColumnName="soc_nombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id_factura" msprop:Generator_ColumnVarNameInTable="columnid_factura" msprop:Generator_ColumnPropNameInRow="id_factura" msprop:Generator_ColumnPropNameInTable="id_facturaColumn" msprop:Generator_UserColumnName="id_factura" type="xs:int" minOccurs="0" />
+              <xs:element name="fac_no_referencia" msprop:Generator_ColumnVarNameInTable="columnfac_no_referencia" msprop:Generator_ColumnPropNameInRow="fac_no_referencia" msprop:Generator_ColumnPropNameInTable="fac_no_referenciaColumn" msprop:Generator_UserColumnName="fac_no_referencia" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fac_fecha_emitida" msprop:Generator_ColumnVarNameInTable="columnfac_fecha_emitida" msprop:Generator_ColumnPropNameInRow="fac_fecha_emitida" msprop:Generator_ColumnPropNameInTable="fac_fecha_emitidaColumn" msprop:Generator_UserColumnName="fac_fecha_emitida" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="fac_total" msprop:Generator_ColumnVarNameInTable="columnfac_total" msprop:Generator_ColumnPropNameInRow="fac_total" msprop:Generator_ColumnPropNameInTable="fac_totalColumn" msprop:Generator_UserColumnName="fac_total" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:vista1_cpp" />
+      <xs:field xpath="mstns:id_socio" />
+      <xs:field xpath="mstns:id_factura" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

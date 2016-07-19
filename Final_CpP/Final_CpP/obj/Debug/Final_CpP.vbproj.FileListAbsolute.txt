@@ -1,0 +1,44 @@
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\bin\Debug\Final_CpP.exe
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\bin\Debug\Final_CpP.pdb
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\bin\Debug\Final_CpP.xml
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.vbprojResolveAssemblyReference.cache
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.Form1.resources
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_cpp.resources
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_Crear_CpP.resources
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_Expediente_Proveedor.resources
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.Resources.resources
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.vbproj.GenerateResource.Cache
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.exe
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.xml
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.pdb
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_Buscar_Catalogo_CpP.resources
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_buscar_Factura_cpp.resources
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_buscar_proveedor.resources
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.exe
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.xml
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.pdb
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\bin\Debug\Final_CpP.exe
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\bin\Debug\Final_CpP.pdb
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\bin\Debug\Final_CpP.xml
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.vbprojResolveAssemblyReference.cache
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.Form1.resources
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_Buscar_Catalogo_CpP.resources
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_buscar_Factura_cpp.resources
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_buscar_proveedor.resources
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_insertar_CatalogoCpP.resources
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_cpp.resources
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_Crear_CpP.resources
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_Expediente_Proveedor.resources
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_insertar_empresa.resources
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_Insertar_Usuario.resources
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_upDel_Catalogo.resources
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_updel_Empresa.resources
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.Resources.resources
+C:\Users\Debbie\Desktop\proyectofinal miguel cuentas por pagar\Final_CpP\Final_CpP\obj\Debug\Final_CpP.vbproj.GenerateResource.Cache
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\bin\Debug\Final_CpP.exe.config
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_insertar_CatalogoCpP.resources
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_insertar_empresa.resources
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_Insertar_Usuario.resources
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_Menu.resources
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_upDel_Catalogo.resources
+C:\Users\usuariopc\Desktop\cpp_oficial y final\Final_CpP\Final_CpP\obj\Debug\Final_CpP.fr_updel_Empresa.resources
